@@ -1,0 +1,154 @@
+ .dropdown-menu{
+    width: 800px;
+    padding: 10px;
+    overflow: hidden;
+
+}
+.btn{
+    color: black;
+}
+/* carousel*/
+#my-carousel img{
+width: 100%;
+height:100%;
+}
+
+/*feature*/
+.featured-categories img{
+    width: 100%;
+    height: 80%;
+    transition: 1s;
+    cursor: pointer;
+
+}
+.featured-categories img:hover{
+    transform: scale(1.1);
+}
+/* on sale product*/
+.title-box{
+    background: orange;
+    color: white;
+    width: 180px;
+    padding: 4px 10px;
+height: 10px 10px  ;
+    margin-bottom: 30px;
+  display: flex;
+}
+.title-box h1{
+    font-size:24px;
+   text-align: center;
+  padding: 10px ;
+}
+.title-box::after{
+    content: '';
+    border-top: 40px solid orange;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 170px;
+}
+/* product-top*/
+
+.overlay-right
+{
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 10px;
+    margin-left: 0;
+    width:  70px;
+
+}
+.overlay-right .fa{
+    cursor: pointer;
+    background-color:black;
+    color:white;
+    height: 35px;
+    width:35px;
+    font-size: 20px;
+    padding:7px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+.overlay-right .btn-secondary
+{
+    background:none !important;
+    border:none !important;
+    box-shadow: none !important;
+}
+.product-top:hover .overlay-right{
+       opacity: 1;
+       margin-left: 5%;
+       transition: 0.5s;
+}
+/* product bottom  */
+.product-bottom .fa {
+    color: orange;
+    font-size: 10px;
+}
+.product-bottom h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.product-bottom h5{
+    font-size: 15px;
+    padding-bottom: 10px;
+
+}
+.product-top img{
+    height: 270px;
+    width: 100%;
+    
+}
+/* new product*/
+.new-product{
+margin: 50px 0;
+}
+/*website feature*/
+.website-features{
+    margin: 60px 0;
+     
+}.website-features img{
+    width:40px;
+
+}
+.feature-text{
+    margin-top:10px;
+    float: right;
+    width: 80%;
+    padding-left: 20px;
+}
+.feature-box{
+    padding-top:20px; 
+}
+/*footer*/
+.footer{
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+}
+.footer h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin: 25px 0;
+
+}
+.footer p{
+    font-size:12px;
+}
+.footer-image img{
+    width:80px;
+}
+.copyright{
+   font-family: courier New;
+    font-size: 100px;
+    margin-bottom: -20px;
+    padding-bottom: 20px;
+    
+}
+.footer hr{
+    margin-top:10px;
+    background-color: #ccc;
+}
